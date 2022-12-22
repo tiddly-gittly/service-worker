@@ -1,6 +1,4 @@
 title: Index
 type: text/vnd.tiddlywiki
 
-{{$:/snippets/minilanguageswitcher}}
-
-Some readme here.
+{{$:/plugins/linonetwo/service-worker/readme}}
