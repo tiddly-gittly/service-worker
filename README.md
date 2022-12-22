@@ -1,20 +1,10 @@
 # Wikitext plugin template for TiddlyWiki5
 
-This template will help you automatically package zipped multiple-file plugin for nodejs wiki, and single file JSON plugin for HTML wiki.
+## Usage
 
-## What need to change after apply the template
+See [documentation site](https://tiddly-gittly.github.io/service-worker/) for usage.
 
-### Basic
-
-1. update `title`, `author` and `description` in the [src/plugin.info](src/plugin.info).
-2. write your plugin tiddlers in the [src/](src/) directory.
-3. tid files just put in the src directory, they will be copy to the plugin automatically.
-   1. You can use folder to organize the files, like `src/filters/` to place the filter tiddlers, and that structure will be preserved in the nodejs multiple-file plugin
-   2. In the JSON plugin, the structure will strictly follow the tiddler title.
-4. update demo site tiddlers in the [demo/](demo/) directory.
-5. update this readme.md
-
-### Examples
+If you are using [Tiddlywiki-NodeJS-Github-Template](https://github.com/tiddly-gittly/Tiddlywiki-NodeJS-Github-Template), then you can skip the setup, they are included in the edition.
 
 ## Development
 
